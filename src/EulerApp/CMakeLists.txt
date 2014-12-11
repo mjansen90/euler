@@ -14,6 +14,8 @@ set(EULERAPP_SRCS
    Problem3/Problem3.h
    Problem4/Problem4.cpp
    Problem4/Problem4.h
+   Problem5/Problem5.cpp
+   Problem5/Problem5.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/src/EulerApp)

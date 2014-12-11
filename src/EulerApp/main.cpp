@@ -14,6 +14,5 @@ int main(int argc, char* argv[])
    Problem4().Run();
    Problem5().Run();
 
-   system("pause");
    return 0;
 }

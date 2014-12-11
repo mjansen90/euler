@@ -8,6 +8,8 @@ set(EULERAPP_SRCS
    BaseProblem.h
    Problem1.cpp
    Problem1.h
+   Problem2.cpp
+   Problem2.h
 )
 
 add_executable(EulerApp

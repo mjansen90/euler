@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Problem1.h"
-#include "Problem2.h"
+#include "Problem1/Problem1.h"
+#include "Problem2/Problem2.h"
 
 int main(int argc, char* argv[])
 {

@@ -6,11 +6,13 @@ set(EULERAPP_SRCS
    main.cpp
    BaseProblem.cpp
    BaseProblem.h
-   Problem1.cpp
-   Problem1.h
-   Problem2.cpp
-   Problem2.h
+   Problem1/Problem1.cpp
+   Problem1/Problem1.h
+   Problem2/Problem2.cpp
+   Problem2/Problem2.h
 )
+
+include_directories(${CMAKE_SOURCE_DIR}/src/EulerApp)
 
 add_executable(EulerApp
    ${EULERAPP_SRCS}

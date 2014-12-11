@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include "Problem1.h"
+
 int main(int argc, char* argv[])
 {
-	std::cout << "Hello World!" << std::endl;
-	system("pause");
-	return 0;
+   Problem1().Run();
+
+   system("pause");
+   return 0;
 }

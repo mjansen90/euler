@@ -5,6 +5,7 @@
 #include "Problem3/Problem3.h"
 #include "Problem4/Problem4.h"
 #include "Problem5/Problem5.h"
+#include "Problem6/Problem6.h"
 
 int main(int argc, char* argv[])
 {
@@ -13,6 +14,8 @@ int main(int argc, char* argv[])
    Problem3().Run();
    Problem4().Run();
    Problem5().Run();
+   Problem6().Run();
 
+   system("pause");
    return 0;
 }

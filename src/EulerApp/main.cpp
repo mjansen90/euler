@@ -7,16 +7,18 @@
 #include "Problem5/Problem5.h"
 #include "Problem6/Problem6.h"
 #include "Problem7/Problem7.h"
+#include "Problem8/Problem8.h"
 
 int main(int argc, char* argv[])
 {
-   //Problem1().Run();
-   //Problem2().Run();
-   //Problem3().Run();
-   //Problem4().Run();
-   //Problem5().Run();
-   //Problem6().Run();
+   Problem1().Run();
+   Problem2().Run();
+   Problem3().Run();
+   Problem4().Run();
+   Problem5().Run();
+   Problem6().Run();
    Problem7().Run();
+   Problem8().Run();
 
    system("pause");
    return 0;

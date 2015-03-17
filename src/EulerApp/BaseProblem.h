@@ -18,4 +18,5 @@ public:
 protected:
    virtual void Execute() = 0;
    virtual std::string ProblemName() = 0;
+   std::string GetSourceDir();
 };

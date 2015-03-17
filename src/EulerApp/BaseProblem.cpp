@@ -38,3 +38,8 @@ void BaseProblem::Run()
              << "-- Execution Time: " << std::chrono::duration_cast<std::chrono::seconds>(t2 - t1).count()        << " s"  << std::endl
              << "--------------------------------" << std::endl << std::endl;
 }
+
+std::string BaseProblem::GetSourceDir()
+{
+   return "../../../src/EulerApp/" + ProblemName() + "/";
+}

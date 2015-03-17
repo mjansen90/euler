@@ -30,6 +30,8 @@ set(EULERAPP_SRCS
    Problem11/Problem11.h
    Problem12/Problem12.cpp
    Problem12/Problem12.h
+   Problem13/Problem13.cpp
+   Problem13/Problem13.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/src/EulerApp)

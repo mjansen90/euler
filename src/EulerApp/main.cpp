@@ -16,19 +16,19 @@
 
 int main(int argc, char* argv[])
 {
-   Problem1().Run();
-   Problem2().Run();
-   Problem3().Run();
-   Problem4().Run();
-   Problem5().Run(); // not instant (~2 seconds)
-   Problem6().Run();
-   Problem7().Run();
-   Problem8().Run();
-   Problem9().Run();
-   Problem10().Run(); // slow (>3 minutes)
-   Problem11().Run();
-   Problem12().Run(); // extremely slow (>40 minutes)
-   Problem13().Run();
+   //Problem1().Run();
+   //Problem2().Run();
+   //Problem3().Run();
+   //Problem4().Run();
+   //Problem5().Run(); // not instant (~2 seconds)
+   //Problem6().Run();
+   //Problem7().Run();
+   //Problem8().Run();
+   //Problem9().Run();
+   //Problem10().Run(); // slow (>3 minutes)
+   //Problem11().Run();
+   //Problem12().Run(); // extremely slow (>40 minutes)
+   //Problem13().Run();
 
    system("pause");
    return 0;

@@ -13,6 +13,7 @@
 #include "Problem11/Problem11.h"
 #include "Problem12/Problem12.h"
 #include "Problem13/Problem13.h"
+#include "Problem14/Problem14.h"
 
 int main(int argc, char* argv[])
 {
@@ -29,6 +30,7 @@ int main(int argc, char* argv[])
    //Problem11().Run();
    //Problem12().Run(); // extremely slow (>40 minutes)
    //Problem13().Run();
+   //Problem14().Run();
 
    system("pause");
    return 0;

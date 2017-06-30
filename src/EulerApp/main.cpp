@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
    //Problem12().Run(); // extremely slow (>40 minutes)
    //Problem13().Run();
    //Problem14().Run();
-   Problem15().Run();
+   //Problem15().Run(); // extremely slow (~45 minutes)
 
    system("pause");
    return 0;
